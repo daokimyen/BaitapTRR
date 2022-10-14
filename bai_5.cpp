@@ -59,7 +59,7 @@ void ghiFile1(int a[][V])
         printf("Loi file");
         return;
     }
-    fprintf(f, "Dinh\tList\n");
+    // fprintf(f, "Dinh\tList\n");
     for (int i = 0; i < V; i++)
     {
         fprintf(f, "%d\t", i);
@@ -83,7 +83,7 @@ void ghiFile2(int a[][V])
         printf("Loi file");
         return;
     }
-    fprintf(f, "Dau\tCuoi\n");
+    // fprintf(f, "Dau\tCuoi\n");
     for (int i = 0; i < V; i++)
     {
         for (int j = 0; j < V; j++)

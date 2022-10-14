@@ -1,6 +1,6 @@
 #include <stdio.h>
-//#include <cstdlib>
-#define V 6
+
+#define V 5
 void macDinh(int a[][V])
 {
     for (int i = 0; i < V; i++)
@@ -13,22 +13,23 @@ void macDinh(int a[][V])
 }
 void docFile2(int a[][V])
 {
-    int x[10];
     FILE *f;
-    f = fopen("input1_1.txt", "r");
+    f = fopen("input2_1.txt", "r");
     if (f == NULL)
     {
         printf("loi file");
         return;
     }
     char arr[20];
-    for (int i = 0; i < 8; i++)
+    for (int i = 0; i < V; i++)
     {
         fgets(arr, 10, f);
-        // printf("%s", arr);
+        printf("%s", arr);
+        int x[10];
         int r = 0;
         for (int j = 0; j < 10; j++)
         {
+
             if (arr[j] != '\t' && arr[j] != '\n' && arr[j] != ' ')
             {
                 x[r] = arr[j] - '0';
@@ -36,11 +37,11 @@ void docFile2(int a[][V])
             }
         }
         int m = x[0];
-        printf("\n");
         for (int j = 1; j < r - 1; j++)
         {
+            printf("%d ", x[j]);
 
-            a[x[0]][x[j]] = 1;
+            // a[x[0]][x[j]] = 1;
         }
         printf("\n");
     }
@@ -61,7 +62,7 @@ void print(int a[][V])
 void ghiFile(int a[][V])
 {
     FILE *f;
-    f = fopen("output1_1.txt", "w");
+    f = fopen("output2_1.txt", "w");
     if (f == NULL)
     {
         printf("loi file");
@@ -108,7 +109,7 @@ int main()
     int a[V][V];
     macDinh(a);
     docFile2(a);
-    ghiFile(a);
+    // ghiFile(a);
     print(a);
     return 0;
 }

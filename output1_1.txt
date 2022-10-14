@@ -1,0 +1,36 @@
+0 1 0 1 1 0 
+1 0 1 0 1 1 
+0 1 0 1 0 1 
+1 0 1 0 1 0 
+1 1 0 1 0 1 
+0 1 1 0 1 0 
+
+Danh sach canh: 
+Dau	Cuoi
+0	1
+0	3
+0	4
+1	0
+1	2
+1	4
+1	5
+2	1
+2	3
+2	5
+3	0
+3	2
+3	4
+4	0
+4	1
+4	3
+4	5
+5	1
+5	2
+5	4
+Bac cua dinh: 
+Bac cua dinh 0 la 3
+Bac cua dinh 1 la 4
+Bac cua dinh 2 la 3
+Bac cua dinh 3 la 3
+Bac cua dinh 4 la 4
+Bac cua dinh 5 la 3
