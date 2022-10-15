@@ -39,9 +39,7 @@ void docFile2(int a[][V])
         int m = x[0];
         for (int j = 1; j < r - 1; j++)
         {
-            printf("%d ", x[j]);
-
-            // a[x[0]][x[j]] = 1;
+            a[x[0]][x[j]] = 1; // bị lỗi ở hàng thứ 2 và hàng thứ 3
         }
         printf("\n");
     }
@@ -109,7 +107,7 @@ int main()
     int a[V][V];
     macDinh(a);
     docFile2(a);
-    // ghiFile(a);
+    ghiFile(a);
     print(a);
     return 0;
 }
