@@ -1,6 +1,6 @@
-0 1 1 0 1 
-0 0 0 1 1 
-0 1 0 0 1 
+0 1 1 0 0 
+0 0 0 1 0 
+0 1 0 0 0 
 0 0 1 0 1 
 1 0 0 1 0 
 
@@ -8,18 +8,15 @@ Danh sach canh:
 Dau	Cuoi
 0	1
 0	2
-0	4
 1	3
-1	4
 2	1
-2	4
 3	2
 3	4
 4	0
 4	3
 Bac cua dinh: 
-Bac cua dinh 0 la 3
-Bac cua dinh 1 la 2
-Bac cua dinh 2 la 2
+Bac cua dinh 0 la 2
+Bac cua dinh 1 la 1
+Bac cua dinh 2 la 1
 Bac cua dinh 3 la 2
 Bac cua dinh 4 la 2

@@ -27,7 +27,7 @@ void docFile2(int a[][V])
         printf("%s", arr);
         int x[10];
         int r = 0;
-        for (int j = 0; j < 10; j++)
+        for (int j = 0; j < 9; j++)
         {
 
             if (arr[j] != '\t' && arr[j] != '\n' && arr[j] != ' ')
@@ -36,10 +36,9 @@ void docFile2(int a[][V])
                 r++;
             }
         }
-        int m = x[0];
         for (int j = 1; j < r - 1; j++)
         {
-            a[x[0]][x[j]] = 1; // bị lỗi ở hàng thứ 2 và hàng thứ 3
+            a[x[0]][x[j]] = 1;
         }
         printf("\n");
     }
