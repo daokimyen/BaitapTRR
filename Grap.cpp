@@ -11,5 +11,10 @@ private:
 public:
     Graph();
     ~Graph();
+    void init();
+
+
+    
+    void canhDoThi( int x, int y);
     void docFile();
 };
